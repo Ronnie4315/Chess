@@ -1,17 +1,14 @@
+#pragma once
+#include "BasePiece.h"
 
-#pragma once 
+class Pawn : public BasePiece {
+public:
+    // Constructor for Pawn
+    Pawn(char Color);
 
-#include "BasePiece.h" 
+    // Get piece symbol (always 'P' for pawn)
+    char GetPiece() const override;
 
-    class Pawn : public BasePiece {
-    public:
-        // Constructor 
-        Pawn(char Color);
-
-        // Get piece type (returns 'P' or 'p')
-        char GetPiece() const;
-
-        // Basic pawn move logic
-        bool LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const;
+    // Check if the pawn's move is legal
+    bool LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const override;
 };
-
