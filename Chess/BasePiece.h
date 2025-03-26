@@ -1,28 +1,24 @@
-#include "Board.h"
-
 #pragma once
-class BasePiece :public Board
-{
-    protected:
-        char PieceColor;  // 'W' for White, 'B' for Black 
+#include <iostream>
+using namespace std;
 
-    public:
-        // Constructor 
-        explicit BasePiece(char Color);
+class BasePiece {
+protected:
+    char PieceColor;  // 'W' for White, 'B' for Black
 
-        // Virtual destructor 
-        virtual ~BasePiece();
+public:
+    // Constructor
+    explicit BasePiece(char Color);
 
-        // Getter for piece color 
-        char GetColor() const;
+    // Virtual destructor
+    virtual ~BasePiece();
 
-        // Pure virtual function to get the piece type (K for King, Q for Queen, etc.) 
-        virtual char GetPiece() const = 0;
+    // Getter for piece color
+    char GetColor() const;
 
-        // Virtual function to check if the move is legal 
-        virtual bool LegalMove(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const;
+    // Pure virtual function to get the piece type (P for Pawn, etc.)
+    virtual char GetPiece() const = 0;
 
-        // Pure virtual function for piece-specific movement validation 
-        virtual bool LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const = 0
- };
-
+    // Pure virtual function for piece-specific movement validation
+    virtual bool LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const = 0;
+};
