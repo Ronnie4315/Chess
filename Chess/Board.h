@@ -1,12 +1,15 @@
 
 #pragma once
+#include "BasePiece.h"
+#include "Pawn.h"
 class Board
 {
 private:
-	char chess[9][9];
+	BasePiece* BoardArray[8][8];
 public:
 	Board();
-	virtual void Move();
+	~Board();
+	void Move();
 	void display();
 };
 
