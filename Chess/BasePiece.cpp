@@ -1,11 +1,12 @@
 #include "BasePiece.h"
-// Constructor 
+
+// Constructor
 BasePiece::BasePiece(char Color) : PieceColor(Color) {}
 
-// Destructor 
+// Destructor
 BasePiece::~BasePiece() {}
 
-// Get piece color 
+// Get piece color
 char BasePiece::GetColor() const {
     return PieceColor;
 }
