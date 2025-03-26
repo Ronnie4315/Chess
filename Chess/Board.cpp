@@ -37,9 +37,25 @@ void Board::display() {
         for (int j = 0; j < 8; j++) {
             if (c % 2 == 0) {
                 SetConsoleTextAttribute(hConsole, 144);  // Light square
+                if (BoardArray[i][j] != nullptr) {
+                    if (BoardArray[i][j]->GetColor() == 'W') {
+                        SetConsoleTextAttribute(hConsole, 159);
+                    }
+                    if (BoardArray[i][j]->GetColor() == 'B') {
+                        SetConsoleTextAttribute(hConsole, 144);
+                    }
+                }
             }
             else {
                 SetConsoleTextAttribute(hConsole, 112);  // Dark square
+                if (BoardArray[i][j] != nullptr) {
+                    if (BoardArray[i][j]->GetColor() == 'W') {
+                        SetConsoleTextAttribute(hConsole, 127);
+                    }
+                    if (BoardArray[i][j]->GetColor() == 'B') {
+                        SetConsoleTextAttribute(hConsole, 112);
+                    }
+                }
             }
 
             // Display the piece symbol if a piece exists

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\BasePiece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\BasePiece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,57 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pawn.h",
-              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h",
-              "RelativeDocumentMoniker": "Chess\\Pawn.h",
-              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h*",
-              "RelativeToolTip": "Chess\\Pawn.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-26T15:53:12.666Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "Pawn.cpp",
+              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.cpp",
+              "RelativeDocumentMoniker": "Chess\\Pawn.cpp",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.cpp",
+              "RelativeToolTip": "Chess\\Pawn.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T16:03:01.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "BasePiece.cpp",
+              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.cpp",
+              "RelativeDocumentMoniker": "Chess\\BasePiece.cpp",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.cpp",
+              "RelativeToolTip": "Chess\\BasePiece.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T16:02:19.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pawn.h",
+              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h",
+              "RelativeDocumentMoniker": "Chess\\Pawn.h",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h",
+              "RelativeToolTip": "Chess\\Pawn.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-26T15:53:12.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BasePiece.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.h",
               "RelativeDocumentMoniker": "Chess\\BasePiece.h",
               "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.h",
               "RelativeToolTip": "Chess\\BasePiece.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-26T15:45:31.646Z"
+              "WhenOpened": "2025-03-26T15:45:31.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Board.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp",
               "RelativeDocumentMoniker": "Chess\\Board.cpp",
-              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp",
-              "RelativeToolTip": "Chess\\Board.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp*",
+              "RelativeToolTip": "Chess\\Board.cpp*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T19:51:36.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Board.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.h",
               "RelativeDocumentMoniker": "Chess\\Board.h",
               "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.h",
               "RelativeToolTip": "Chess\\Board.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-24T19:50:37.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Chess.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Chess.cpp",
               "RelativeDocumentMoniker": "Chess\\Chess.cpp",
@@ -96,8 +128,7 @@
               "RelativeToolTip": "Chess\\Chess.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-24T19:50:16.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:50:16.913Z"
             }
           ]
         }
