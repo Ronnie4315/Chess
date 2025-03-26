@@ -1,6 +1,4 @@
-#pragma once
-class Pawn
-{
+
 #pragma once 
 
 #include "BasePiece.h" 
@@ -15,7 +13,5 @@ class Pawn
 
         // Basic pawn move logic
         bool LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const;
-
-    };
 };
 
