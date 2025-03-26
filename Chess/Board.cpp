@@ -1,21 +1,22 @@
 #include "Board.h"
-#include <iostream> 
-#include<Windows.h> 
+#include <iostream>
+#include <Windows.h>
 using namespace std;
 
-	Board::Board() {
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
-                chess[i][j] = nullptr;
-            }
+Board::Board() {
+    // Initialize the board with nullptrs
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            BoardArray[i][j] = nullptr;
         }
+    }
 
-        for (int i = 0; i < 8; i++) {
-   	 BoardArray[1][i] = new Pawn('B');  // Black pawns
-    	BoardArray[6][i] = new Pawn('W');  // White pawns
-		}
-        }
-	
+    // Create white pawns and black pawns
+    for (int i = 0; i < 8; i++) {
+        BoardArray[1][i] = new Pawn('B');  // Black pawns
+        BoardArray[6][i] = new Pawn('W');  // White pawns
+    }
+}
 
 Board::~Board() {
     // Clean up dynamically allocated pieces
@@ -28,9 +29,7 @@ Board::~Board() {
     }
 }
 
-
-	
-	void Board::display() {
+void Board::display() {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     int c = 0;
 
@@ -68,7 +67,6 @@ Board::~Board() {
     cout << endl;
 }
 
-
 void Board::Move() {
     char startCol, destCol;
     int startRow, destRow;
@@ -100,7 +98,7 @@ void Board::Move() {
 
     // Check if the move is legal for this piece
     if (piece->LegalSquare(startRowIndex, startColIndex, destRowIndex, destColIndex, BoardArray)) {
-        // Move the piece to the destination
+        // Move the piece to the destinationA
         delete BoardArray[destRowIndex][destColIndex];  // Capture if there's a piece at the destination
         BoardArray[destRowIndex][destColIndex] = piece;
         BoardArray[startRowIndex][startColIndex] = nullptr;
@@ -111,8 +109,3 @@ void Board::Move() {
         cout << "Illegal move for this piece!" << endl;
     }
 }
-
-
-
-
-
