@@ -1,2 +1,17 @@
-﻿  Board.cpp
-  Chess.vcxproj -> C:\Users\ronni\source\repos\Chess\x64\Debug\Chess.exe
+﻿  BasePiece.cpp
+  Board.cpp
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\BasePiece.h(26,22): error C2059: syntax error: '}'
+  (compiling source file 'BasePiece.cpp')
+  
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\BasePiece.h(27,2): error C2059: syntax error: '}'
+  (compiling source file 'BasePiece.cpp')
+  
+  Chess.cpp
+  Pawn.cpp
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\BasePiece.h(26,22): error C2059: syntax error: '}'
+  (compiling source file 'Pawn.cpp')
+  
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\BasePiece.h(27,2): error C2059: syntax error: '}'
+  (compiling source file 'Pawn.cpp')
+  
+  Generating Code...
