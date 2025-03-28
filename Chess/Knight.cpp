@@ -14,10 +14,15 @@ bool Knight::LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, Bas
 	roffset = FinalRow - IntRow;
 	coffset = FinalCol - IntCol;
 	if (abs(roffset) == 2 && abs(coffset) == 1) {
-		return true;
+		if (Board[FinalRow][FinalCol] != nullptr && Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
+			return true;
+		}
 	}
 	if (abs(roffset) == 1 && abs(coffset) == 2) {
-		return true;
+		if (Board[FinalRow][FinalCol] != nullptr && Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
+			return true;
+		}
 	}
+	//if(Board[FinalRow][FinalCol])
 	return false;
 }
