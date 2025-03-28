@@ -1,4 +1,6 @@
 #include "Board.h"
+#include "Rook.h"
+#include "Pawn.h"
 #include <iostream>
 #include <Windows.h>
 using namespace std;
@@ -16,6 +18,10 @@ Board::Board() {
         BoardArray[1][i] = new Pawn('B');  // Black pawns
         BoardArray[6][i] = new Pawn('W');  // White pawns
     }
+    BoardArray[0][0] = new Rook('B');
+    BoardArray[0][7] = new Rook('B');
+    BoardArray[7][0] = new Rook('W');
+    BoardArray[7][7] = new Rook('W');
 }
 
 Board::~Board() {
