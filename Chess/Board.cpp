@@ -1,6 +1,7 @@
 #include "Board.h"
 #include "Rook.h"
 #include "Pawn.h"
+#include "Bishop.h"
 #include <iostream>
 #include <Windows.h>
 using namespace std;
@@ -22,6 +23,10 @@ Board::Board() {
     BoardArray[0][7] = new Rook('B');
     BoardArray[7][0] = new Rook('W');
     BoardArray[7][7] = new Rook('W');
+    BoardArray[0][1] = new Bishop('B');
+    BoardArray[0][6] = new Bishop('B');
+    BoardArray[7][1] = new Bishop('W');
+    BoardArray[7][6] = new Bishop('W');
 }
 
 Board::~Board() {
