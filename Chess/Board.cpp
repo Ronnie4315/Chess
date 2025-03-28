@@ -3,6 +3,8 @@
 #include "Pawn.h"
 #include "Bishop.h"
 #include "Knight.h"
+#include "Queen.h"
+#include "King.h"
 #include <iostream>
 #include <Windows.h>
 using namespace std;
@@ -34,6 +36,12 @@ Board::Board() {
     BoardArray[0][6] = new Knight('B');
     BoardArray[7][1] = new Knight('W');
     BoardArray[7][6] = new Knight('W');
+
+    BoardArray[0][3] = new Queen('B');
+    BoardArray[7][3] = new Queen('W');
+
+    BoardArray[0][4] = new King('B');
+    BoardArray[7][4] = new King('W');
 }
 
 Board::~Board() {

@@ -2,6 +2,8 @@ C:\Users\ronni\OneDrive\Desktop\Chess\Chess\BasePiece.cpp;C:\Users\ronni\OneDriv
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Bishop.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Bishop.obj
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Board.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Board.obj
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Chess.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Chess.obj
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\King.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\King.obj
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Knight.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Knight.obj
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Pawn.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Pawn.obj
+C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Queen.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Queen.obj
 C:\Users\ronni\OneDrive\Desktop\Chess\Chess\Rook.cpp;C:\Users\ronni\OneDrive\Desktop\Chess\Chess\x64\Debug\Rook.obj
