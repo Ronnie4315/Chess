@@ -9,20 +9,16 @@ char Knight::GetPiece() const {
 
 // Check if the move is legal
 bool Knight::LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const {
-	int roffset;
-	int coffset;
-	roffset = FinalRow - IntRow;
-	coffset = FinalCol - IntCol;
-	if (abs(roffset) == 2 && abs(coffset) == 1) {
-		if (Board[FinalRow][FinalCol] != nullptr && Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
-			return true;
-		}
-	}
-	if (abs(roffset) == 1 && abs(coffset) == 2) {
-		if (Board[FinalRow][FinalCol] != nullptr && Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
-			return true;
-		}
-	}
-	//if(Board[FinalRow][FinalCol])
-	return false;
+    int roffset = FinalRow - IntRow;
+    int coffset = FinalCol - IntCol;
+
+    // Check if the move is in an L-shape
+    if ((abs(roffset) == 2 && abs(coffset) == 1) || (abs(roffset) == 1 && abs(coffset) == 2)) {
+        // Check if the destination square is either empty or occupied by an opponent's piece
+        if (Board[FinalRow][FinalCol] == nullptr || Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
+            return true;
+        }
+    }
+
+    return false; // If none of the conditions are met, the move is illegal
 }
