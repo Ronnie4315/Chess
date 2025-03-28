@@ -17,5 +17,12 @@ int main() {
     cout << "\nBoard After Move:" << endl;
     G1.display();
 
+    // Test move for pawn
+    G1.Move();  // Move a piece (pawn test)
+
+    // Display the board after a move
+    cout << "\nBoard After Move:" << endl;
+    G1.display();
+
     return 0;
 }

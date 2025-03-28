@@ -48,20 +48,20 @@ bool Rook::LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BaseP
 		int count = 0;
 		if (direction > 0) {
 			for (int i = IntRow; i < direction; i++) {
-				if (Board[FinalCol][IntRow + i]->GetColor() == this->GetColor()) {
+				if (Board[IntRow + i][FinalCol]->GetColor() == this->GetColor()) {
 					return false;
 				}
-				if (Board[FinalCol][IntRow + i]->GetColor() != this->GetColor()) {
+				if (Board[IntRow + i][FinalCol]->GetColor() != this->GetColor()) {
 					count++;
 				}
 			}
 		}
 		if (direction < 0) {
 			for (int i = IntRow; i > direction; i--) {
-				if (Board[IntCol][IntRow + i]->GetColor() == this->GetColor()) {
+				if (Board[IntRow + i][FinalCol]->GetColor() == this->GetColor()) {
 					return false;
 				}
-				if (Board[FinalCol][IntRow + i]->GetColor() != this->GetColor()) {
+				if (Board[IntRow + i][FinalCol]->GetColor() != this->GetColor()) {
 					count++;
 				}
 			}
@@ -72,10 +72,10 @@ bool Rook::LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BaseP
 		*/
 	}
 
-	if ((FinalRow == IntRow + direction && IntCol == FinalCol) && (Board[FinalCol][FinalRow] == nullptr || Board[FinalCol][FinalRow]->GetColor() != this->GetColor())) {
+	if ((FinalRow == IntRow + direction && IntCol == FinalCol) && (Board[FinalRow][FinalCol] == nullptr || Board[FinalRow][FinalCol]->GetColor() != this->GetColor())) {
 		return true;
 	}
-	if (FinalCol == IntCol + direction && IntRow == FinalRow && ( Board[FinalCol][FinalRow] == nullptr || Board[FinalCol][FinalRow]->GetColor() != this->GetColor())) {
+	if (FinalCol == IntCol + direction && IntRow == FinalRow && (Board[FinalRow][FinalCol] == nullptr || Board[FinalRow][FinalCol]->GetColor() != this->GetColor())) {
 		return true;
 	}
 	return false;
