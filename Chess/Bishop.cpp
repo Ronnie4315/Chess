@@ -9,52 +9,24 @@ char Bishop::GetPiece() const {
 
 // Check if the move is legal
 bool Bishop::LegalSquare(int IntRow, int IntCol, int FinalRow, int FinalCol, BasePiece* Board[8][8]) const {
-	int roffset;
-	int coffset;
+	int roffset;//row offset
+	int coffset;//column offset
 	roffset = FinalRow - IntRow;
 	coffset = FinalCol - IntCol;
 	if (abs(roffset) != abs(coffset)) {
 		return false;
 	}
-	if(roffset > 0 && coffset > 0) {
-		//int count = 0;
-		for (int i = IntRow; i !=FinalRow; i++) {
-			if (Board[IntRow+i][IntCol+i] != nullptr) {
-				return false;
-			}
-			/*if (Board[IntRow + i][IntCol + i]->GetColor() != this->GetColor()) {
-				count++;
-			}*/
-		}
-		/*if (count > 1) {
+	int rdirection = (roffset > 0) ? 1 : -1;
+	int cdirection = (coffset > 0) ? 1 : -1;
+
+	for (int i = IntRow+rdirection; i != FinalRow; i = i + rdirection) {
+		if (Board[i][IntCol+cdirection] != nullptr) {	
 			return false;
-		}*/
-	}
-	if (roffset < 0 && coffset < 0) {
-		int count = 0;
-		for (int i = IntRow; i != FinalRow; i--) {
-			if (Board[IntRow + i][IntCol + i] != nullptr) {
-				return false;
-			}
 		}
+		cdirection = cdirection + cdirection;
 	}
-
-		if (roffset > 0 && coffset < 0) {
-			int count = 0;
-			for (int i = IntRow; i < roffset; i++) {
-				if (Board[IntRow + i][IntCol - i] != nullptr) {
-					return false;
-				}
-
-			}
-		}
-	if (roffset < 0 && coffset > 0) {
-		int count = 0;
-		for (int i = IntCol; i < coffset; i++) {
-			if (Board[IntRow - i][IntCol + i] != nullptr) {
-				return false;
-			}
-		}
+	if (Board[FinalRow][FinalCol] == nullptr || Board[FinalRow][FinalCol]->GetColor() != this->GetColor()) {
+		return true;
 	}
-	return true;
+	return false;
  }
