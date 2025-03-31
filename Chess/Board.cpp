@@ -5,6 +5,7 @@
 #include "Knight.h"
 #include "Queen.h"
 #include "King.h"
+#include "Promotion.h"
 #include <iostream>
 #include <Windows.h>
 using namespace std;
@@ -62,7 +63,7 @@ void Board::display() {
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 8; j++) {
             if (c % 2 == 0) {
-                SetConsoleTextAttribute(hConsole, 144);  // Light square
+               SetConsoleTextAttribute(hConsole, 144);  // Light square 
                 if (BoardArray[i][j] != nullptr) {
                     if (BoardArray[i][j]->GetColor() == 'W') {
                         SetConsoleTextAttribute(hConsole, 159);
@@ -152,8 +153,23 @@ bool Board::Move(char currentPlayer) {
         BoardArray[startRowIndex][startColIndex] = nullptr;
 
         cout << "Move successful!" << endl;
+
+        if (piece->GetPiece() == 'P' && (destRowIndex == 0 || destRowIndex == 7)) {
+            cout << "Pawn can be promoted!" << endl;
+            cout << piece->GetColor() << "color" << endl;
+            char color = piece->GetColor();
+            delete BoardArray[destRowIndex][destColIndex];  // Remove the pawn
+            
+            BoardArray[destRowIndex][destColIndex] = Promotion::PromotePawn(color);  // Promote
+           
+            
+        }
+
         return true;
     }
+
+   
+
     else {
         cout << "Illegal move for this piece!" << endl;
         return false;
