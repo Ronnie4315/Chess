@@ -109,7 +109,7 @@ void Board::display() {
     cout << endl;
 }
 
-void Board::Move() {
+bool Board::Move(char currentPlayer) {
     char startCol, destCol;
     int startRow, destRow;
 
@@ -126,28 +126,36 @@ void Board::Move() {
     if (startRowIndex < 0 || startRowIndex >= 8 || startColIndex < 0 || startColIndex >= 8 ||
         destRowIndex < 0 || destRowIndex >= 8 || destColIndex < 0 || destColIndex >= 8) {
         cout << "Invalid move! Out of bounds." << endl;
-        return;
+        return false;
     }
 
     // Check if there is a piece at the starting position
     if (BoardArray[startRowIndex][startColIndex] == nullptr) {
         cout << "No piece at the starting position!" << endl;
-        return;
+        return false;
     }
 
     // Get the selected piece
     BasePiece* piece = BoardArray[startRowIndex][startColIndex];
 
+    // Check if the selected piece belongs to the current player
+    if (piece->GetColor() != currentPlayer) {
+        cout << "It's not your turn to move this piece!" << endl;
+        return false;
+    }
+
     // Check if the move is legal for this piece
     if (piece->LegalSquare(startRowIndex, startColIndex, destRowIndex, destColIndex, BoardArray)) {
-        // Move the piece to the destinationA
-        delete BoardArray[destRowIndex][destColIndex];  // Capture if there's a piece at the destination
+        // Move the piece to the destination
+        delete BoardArray[destRowIndex][destColIndex];  // Capture if a piece is there
         BoardArray[destRowIndex][destColIndex] = piece;
         BoardArray[startRowIndex][startColIndex] = nullptr;
 
         cout << "Move successful!" << endl;
+        return true;
     }
     else {
         cout << "Illegal move for this piece!" << endl;
+        return false;
     }
 }
