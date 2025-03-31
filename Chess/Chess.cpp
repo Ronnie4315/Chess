@@ -10,6 +10,7 @@ int main() {
     while (true) {
         // Display a simple menu
         cout << "Chess Game Menu:" << endl;
+
         cout << "1. Start a new game" << endl;
         cout << "2. Quit" << endl;
         cout << "Enter your choice: ";

@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
 ﻿  King.cpp
   LINK : C:\Users\ronni\OneDrive\Desktop\Chess\x64\Debug\Chess.exe not found or not built by the last incremental link; performing full link
+=======
+﻿  Chess.cpp
+>>>>>>> Stashed changes
   Chess.vcxproj -> C:\Users\ronni\OneDrive\Desktop\Chess\x64\Debug\Chess.exe

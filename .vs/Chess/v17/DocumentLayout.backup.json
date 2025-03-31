@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\GameCheck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\GameCheck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Promotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Promotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CEF0DBA7-9FDC-4C64-96D5-F8A0895BFE3A}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -78,15 +89,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 15,
+=======
+          "SelectedChildIndex": 0,
+>>>>>>> Stashed changes
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameCheck.h",
+              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\GameCheck.h",
+              "RelativeDocumentMoniker": "Chess\\GameCheck.h",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\GameCheck.h",
+              "RelativeToolTip": "Chess\\GameCheck.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T16:45:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Promotion.h",
+              "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Promotion.h",
+              "RelativeDocumentMoniker": "Chess\\Promotion.h",
+              "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Promotion.h",
+              "RelativeToolTip": "Chess\\Promotion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T16:45:08.425Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
               "Title": "King.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\King.cpp",
               "RelativeDocumentMoniker": "Chess\\King.cpp",
@@ -98,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "King.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\King.h",
               "RelativeDocumentMoniker": "Chess\\King.h",
@@ -110,20 +155,31 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "Queen.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Queen.cpp",
               "RelativeDocumentMoniker": "Chess\\Queen.cpp",
               "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Queen.cpp",
               "RelativeToolTip": "Chess\\Queen.cpp",
+<<<<<<< Updated upstream
               "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-28T04:06:32.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T04:06:32.097Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "Queen.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Queen.h",
               "RelativeDocumentMoniker": "Chess\\Queen.h",
@@ -135,7 +191,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
               "Title": "Knight.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Knight.cpp",
               "RelativeDocumentMoniker": "Chess\\Knight.cpp",
@@ -147,7 +207,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
               "Title": "Knight.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Knight.h",
               "RelativeDocumentMoniker": "Chess\\Knight.h",
@@ -159,7 +223,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Bishop.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Bishop.cpp",
               "RelativeDocumentMoniker": "Chess\\Bishop.cpp",
@@ -171,7 +239,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "Bishop.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Bishop.h",
               "RelativeDocumentMoniker": "Chess\\Bishop.h",
@@ -183,7 +255,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "Rook.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Rook.h",
               "RelativeDocumentMoniker": "Chess\\Rook.h",
@@ -195,7 +271,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "Rook.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Rook.cpp",
               "RelativeDocumentMoniker": "Chess\\Rook.cpp",
@@ -207,7 +287,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 15,
+>>>>>>> Stashed changes
               "Title": "BasePiece.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.cpp",
               "RelativeDocumentMoniker": "Chess\\BasePiece.cpp",
@@ -219,7 +303,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "Pawn.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.h",
               "RelativeDocumentMoniker": "Chess\\Pawn.h",
@@ -231,7 +319,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "BasePiece.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\BasePiece.h",
               "RelativeDocumentMoniker": "Chess\\BasePiece.h",
@@ -243,7 +335,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 11,
+>>>>>>> Stashed changes
               "Title": "Pawn.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Pawn.cpp",
               "RelativeDocumentMoniker": "Chess\\Pawn.cpp",
@@ -255,7 +351,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Board.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.cpp",
               "RelativeDocumentMoniker": "Chess\\Board.cpp",
@@ -268,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Board.h",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Board.h",
               "RelativeDocumentMoniker": "Chess\\Board.h",
@@ -280,13 +380,17 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "Chess.cpp",
               "DocumentMoniker": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Chess.cpp",
               "RelativeDocumentMoniker": "Chess\\Chess.cpp",
               "ToolTip": "C:\\Users\\ronni\\OneDrive\\Desktop\\Chess\\Chess\\Chess.cpp",
               "RelativeToolTip": "Chess\\Chess.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T19:50:16.913Z",
               "EditorCaption": ""
