@@ -1,16 +1,13 @@
 #pragma once
 #include "BasePiece.h"
-#include "Pawn.h"
 
 class Board {
 private:
-    BasePiece* BoardArray[8][8];  // Array of pointers to BasePiece
+    BasePiece* BoardArray[8][8];
 
 public:
-    Board();
-    ~Board();  // Destructor to clean up dynamically allocated pieces
-
+    Board();  // Constructor
+    ~Board(); // Destructor
     void display();  // Display the board
-    void Move();     // Move a piece
+    bool Move(char currentPlayer);  // Updated to return a bool
 };
-
